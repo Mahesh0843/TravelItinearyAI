@@ -27,7 +27,7 @@ def ask_gemini(prompt):
         print("✅ DEBUG: Client created successfully")
         
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-3-flash-preview",
             contents=prompt
         )
         print("✅ DEBUG: API response received")
